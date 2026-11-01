@@ -1,0 +1,114 @@
+@import url(main.css);
+
+section h3 {
+  color: #7e4f4f;
+  margin-top: 20px;
+}
+
+section ol li {
+  margin-bottom: 8px;
+}
+
+aside {
+  background-color: #eeeeee;
+  padding: 10px;
+  margin: 20px;
+}
+
+nav ul li a:hover {
+  color: #5d9180;
+  text-decoration: underline;
+}
+
+.wrapper {
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: center;
+  justify-content: space-around; 
+  gap: 2em;
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+}
+
+.imagen-principal-contenedor {
+    flex: 1; 
+    min-width: 300px; 
+    display: flex; 
+    justify-content: center; 
+    position: static;
+    overflow: visible; 
+    margin-bottom: 0; 
+}
+
+.imagen-principal-contenedor img {
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+    object-fit: cover; 
+}
+
+.texto-al-lado {
+   flex: 1; 
+   min-width: 250px; 
+   padding: 0 15px; 
+   margin-top: 0; 
+}
+
+#bienvenida {
+    text-align: center;
+    margin-bottom: 10px; 
+    padding: 20px 0; 
+    position: static; 
+    z-index: 0; 
+    background-color: transparent; 
+}
+
+#bienvenida h2 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+}
+
+#bienvenida p {
+    font-size: 1.2em; 
+    color: #555; 
+}
+
+#main img {
+    display: block;
+    margin-bottom: 15px;
+    max-width: 100%; 
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+footer address {
+    text-align: center;
+    font-size: 0.9em;
+    color: #333; 
+}
+
+
+.imagen-flotante {
+    display: none; 
+}
+
+.imagen-principal-contenedor::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.intro p {
+    font-size: inherit; 
+}
+p {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.8em;
+}

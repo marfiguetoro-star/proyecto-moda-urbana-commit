@@ -1,0 +1,31 @@
+@import url(main.css);
+
+section h2 {
+  color: #1b1b5f;
+  margin-top: 20px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  border: 1px solid #aaa;
+}
+
+textarea[required] {
+  border: 2px dashed #ccc;
+}
+
+iframe[src] {
+  border: 2px solid #eee;
+  display: block;
+  margin: 15px auto;
+}
+
